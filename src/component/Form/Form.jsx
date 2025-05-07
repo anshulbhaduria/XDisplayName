@@ -45,7 +45,7 @@ function Form() {
       </form>
 
       {submittedInfo && (
-        <p>{`Full name: ${submittedInfo.first_name} ${submittedInfo.last_name}`}</p>
+        <p>{`Full Name: ${submittedInfo.first_name} ${submittedInfo.last_name}`}</p>
       )}
     </div>
   );
